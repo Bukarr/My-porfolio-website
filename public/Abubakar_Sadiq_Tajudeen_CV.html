@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abubakar Sadiq Tajudeen - CV / Resume</title>
+    <!-- Tailwind CSS for high-fidelity styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .font-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        /* Custom print stylesheet rules */
+        @media print {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                font-size: 11px;
+                line-height: 1.4;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .print-shadow-none {
+                box-shadow: none !important;
+                border: none !important;
+            }
+            .print-border-b {
+                border-bottom: 1px solid #e2e8f0 !important;
+            }
+            .print-p-0 {
+                padding: 0 !important;
+            }
+            .print-m-0 {
+                margin: 0 !important;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+            .text-[#00f0a0] {
+                color: #0d9488 !important; /* fallback for colored highlights in black and white */
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen py-8 md:py-12 px-4 print-p-0 print-m-0 print-shadow-none">
+
+    <!-- Sticky Toolbar (Not printed) -->
+    <div class="max-w-4xl mx-auto mb-6 no-print flex flex-wrap items-center justify-between gap-4 bg-white/80 backdrop-blur border border-slate-200 shadow-sm rounded-2xl p-4">
+        <div class="flex items-center gap-3">
+            <div class="h-2.5 w-2.5 rounded-full bg-emerald-500 animate-pulse"></div>
+            <span class="text-xs font-mono font-bold tracking-wider text-slate-600 uppercase">CV / Resume Workspace</span>
+        </div>
+        <div class="flex items-center gap-3">
+            <button onclick="window.print()" class="flex items-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-sans text-xs font-bold uppercase tracking-wider rounded-lg shadow transition-all cursor-pointer">
+                <!-- SVG Print Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                </svg>
+                <span>Print or Save to PDF</span>
+            </button>
+            <a href="javascript:history.back()" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-sans text-xs font-bold uppercase tracking-wider rounded-lg transition-all border border-slate-200">
+                Back to Site
+            </a>
+        </div>
+    </div>
+
+    <!-- Active Resume Sheet -->
+    <div class="max-w-4xl mx-auto bg-white border border-slate-200/60 shadow-xl rounded-2xl p-8 md:p-12 print-shadow-none print-p-0 print-m-0 print-border-b print-shadow-none">
+        <!-- Header -->
+        <header class="text-center md:text-left border-b border-slate-100 pb-6 print-border-b">
+            <h1 class="text-3xl md:text-4.5xl font-extrabold tracking-tight text-slate-900 uppercase">
+                Abubakar Sadiq Tajudeen
+            </h1>
+            <p class="text-sm font-mono tracking-widest text-[#0d9488] font-bold mt-2 uppercase">
+                Developer &bull; Graphic Designer &bull; Tech Educator
+            </p>
+            
+            <!-- Contact Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 mt-5 font-mono text-xs text-slate-500">
+                <a href="mailto:sahdheeq1001@gmail.com" class="hover:text-teal-600 transition-colors flex items-center justify-center md:justify-start gap-2">
+                    <span>✉ sahdheeq1001@gmail.com</span>
+                </a>
+                <a href="tel:+2348027957871" class="hover:text-teal-600 transition-colors flex items-center justify-center md:justify-start gap-2">
+                    <span>☎ +234 802 795 7871</span>
+                </a>
+                <div class="flex items-center justify-center md:justify-start gap-2">
+                    <span>📍 Zaria, Kaduna State, Nigeria</span>
+                </div>
+                <a href="https://github.com/Bukarr" target="_blank" class="hover:text-teal-600 transition-colors flex items-center justify-center md:justify-start gap-2">
+                    <span>💻 github.com/Bukarr</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="mt-8">
+            <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.5 mb-3">
+                Professional Summary
+            </h2>
+            <p class="text-[13px] text-slate-600 leading-relaxed font-sans">
+                Dynamic and self-driven developer, graphic designer, and edtech innovator building purposeful technology from Zaria, Nigeria. Currently completing an NCE in Computer/Integrated Science at Federal College of Education, Zaria, with hands-on experience in full-stack web development, product design, and AI-powered application building. Passionate about closing the technology gap in underserved Nigerian communities through accessible education tools and open-source innovation. Demonstrated track record in student leadership, academic advocacy, and tech mentorship at both institutional and national levels.
+            </p>
+        </section>
+
+        <!-- Main Workspace Layout Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mt-8">
+            <!-- Left Main Column (Experience & Activity) -->
+            <div class="md:col-span-8 space-y-8">
+                <!-- Professional Experience -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.5 mb-4">
+                        Professional Experience
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <!-- Role 1 -->
+                        <div>
+                            <div class="flex justify-between items-start flex-wrap gap-1">
+                                <h3 class="text-[14px] font-bold text-slate-900">
+                                    Almanhaj Academy, Kwangila – Zaria
+                                </h3>
+                                <span class="text-xs font-mono text-slate-500 font-medium">
+                                    2022 – March 2026
+                                </span>
+                            </div>
+                            <span class="text-2xs font-sans text-[#0d9488] font-bold block uppercase tracking-wide mt-0.5">Primary School Teacher (Part-Time)</span>
+                            <ul class="list-disc list-outside pl-4 mt-2.5 text-[12.5px] text-slate-600 space-y-1.5 font-sans">
+                                <li>Delivered instruction in science and computer-related subjects across primary school classes.</li>
+                                <li>Assessed student performance, maintained academic records, and provided individualised academic support.</li>
+                                <li>Developed lesson plans aligned with the Nigerian national curriculum standards.</li>
+                                <li>Managed classroom activities and maintained a conducive, disciplined learning environment.</li>
+                                <li>Guided pupils through foundational digital literacy and numeracy concepts.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Role 2 -->
+                        <div>
+                            <div class="flex justify-between items-start flex-wrap gap-1">
+                                <h3 class="text-[14px] font-bold text-slate-900">
+                                    Nigerian College of Aviation Technology (NCAT) – Zaria
+                                </h3>
+                                <span class="text-xs font-mono text-slate-500 font-medium">
+                                    2023 – 2024
+                                </span>
+                            </div>
+                            <span class="text-2xs font-sans text-[#0d9488] font-bold block uppercase tracking-wide mt-0.5">SIWES Web Development Trainee</span>
+                            <ul class="list-disc list-outside pl-4 mt-2.5 text-[12.5px] text-slate-600 space-y-1.5 font-sans">
+                                <li>Completed SIWES industrial training with a focus on web development and graphic design.</li>
+                                <li>Served as peer coordinator, mentoring fellow trainees on HTML, CSS, JavaScript, and graphic design tools.</li>
+                                <li>Built and presented functional web projects during training evaluation periods.</li>
+                                <li>Gained practical exposure to professional web development workflows and industry design standards.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Student Leadership & Advocacy -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.5 mb-4">
+                        Student Leadership & Advocacy
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <!-- Leadership 1 -->
+                        <div>
+                            <div class="flex justify-between items-start flex-wrap gap-1">
+                                <h3 class="text-[14px] font-bold text-slate-900">
+                                    Federal College of Education (FCE) Zaria – CS/Integrated Science Dept.
+                                </h3>
+                                <span class="text-xs font-mono text-slate-500 font-medium">
+                                    2022 – Present
+                                </span>
+                            </div>
+                            <span class="text-2xs font-sans text-[#0d9488] font-bold block uppercase tracking-wide mt-0.5">Class Representative & NCE Cohort Coordinator</span>
+                            <ul class="list-disc list-outside pl-4 mt-2.5 text-[12.5px] text-slate-600 space-y-1.5 font-sans">
+                                <li>Served as elected Class Representative for the Computer/Integrated Science department throughout the full 4-year NCE programme.</li>
+                                <li>Served as General Class Representative for all Computer Science students during NCE Years 2 and 3.</li>
+                                <li>Served as General Class Representative for all Integrated Science students from NCE Year 2 through to the present (NCE Year 4).</li>
+                                <li>Acted as the primary liaison between students and faculty, relaying academic concerns, timetable changes, and institutional communications.</li>
+                                <li>Organised class-level academic activities and peer support sessions.</li>
+                                <li>Coordinated student participation in departmental and institutional events.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Leadership 2 -->
+                        <div class="page-break">
+                            <div class="flex justify-between items-start flex-wrap gap-1">
+                                <h3 class="text-[14px] font-bold text-slate-900">
+                                    NACOS FCE Zaria Chapter (2025/26 Excos)
+                                </h3>
+                                <span class="text-xs font-mono text-slate-500 font-medium">
+                                    2025 – Present
+                                </span>
+                            </div>
+                            <span class="text-2xs font-sans text-[#0d9488] font-bold block uppercase tracking-wide mt-0.5">Organizing Secretary</span>
+                            <ul class="list-disc list-outside pl-4 mt-2.5 text-[12.5px] text-slate-600 space-y-1.5 font-sans">
+                                <li>Elected as Organizing Secretary of the National Association of Computing Students (NACOS), FCE Zaria chapter.</li>
+                                <li>Coordinated chapter-level events, meetings, and academic programmes.</li>
+                                <li>Managed logistics for tech seminars, workshops, and student engagement activities.</li>
+                                <li>Worked closely with the NACOS executive team to drive community and academic initiatives for CS students.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects & Portfolio -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.5 mb-4">
+                        Projects & Portfolio
+                    </h2>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="text-[13px] font-bold text-slate-950 font-sans flex items-center gap-1.5">
+                                SyllabixNG &mdash; Edtech PWA for Nigerian Teachers
+                            </h4>
+                            <p class="text-xs text-slate-500 font-mono mt-0.5">Live: <a href="https://syllabixng.vercel.app" target="_blank" class="text-teal-600 hover:underline">syllabixng.vercel.app</a></p>
+                            <p class="text-xs text-slate-600 mt-1.5 font-sans leading-relaxed">
+                                A curriculum-aligned progressive web app designed to simplify lesson planning and copy note generation for Nigerian teachers. Features AI-powered lesson plan generation, PDF export, offline support, and alignment with NERDC/UBE and WAEC/SSCE frameworks.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-[13px] font-bold text-slate-950 font-sans flex items-center gap-1.5">
+                                Airis &mdash; Camera-Based Object Identification PWA
+                            </h4>
+                            <p class="text-xs text-slate-500 font-mono mt-0.5">Live: <a href="https://airis-cam.vercel.app" target="_blank" class="text-teal-600 hover:underline">airis-cam.vercel.app</a></p>
+                            <p class="text-xs text-slate-600 mt-1.5 font-sans leading-relaxed">
+                                An AI-powered PWA that identifies real-world objects through the device camera, delivering instant intelligent analysis. Built for accessibility and performance on mobile devices.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-[13px] font-bold text-slate-950 font-sans flex items-center gap-1.5">
+                                Personal Developer Portfolio
+                            </h4>
+                            <p class="text-xs text-slate-500 font-mono mt-0.5">Live: <a href="https://bukarr-portfolio.vercel.app" target="_blank" class="text-teal-600 hover:underline">bukarr-portfolio.vercel.app</a></p>
+                            <p class="text-xs text-slate-600 mt-1.5 font-sans leading-relaxed">
+                                A fully custom dark-themed developer portfolio with animated space aesthetics, showcasing projects, skills, and brand identity as Bukarr.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Sidebar Column (Education, Skills, Certs, etc) -->
+            <div class="md:col-span-4 space-y-8 border-t md:border-t-0 md:border-l border-slate-100 pt-8 md:pt-0 md:pl-6 print-p-0 print-m-0">
+                <!-- Education -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.25 mb-3">
+                        Education
+                    </h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-xs font-bold text-slate-900 leading-tight">NCE &ndash; Computer/Integrated Science</h3>
+                            <p class="text-2xs text-[#0d9488] font-bold mt-0.5 font-sans uppercase">Federal College of Education, Zaria</p>
+                            <p class="text-2xs text-slate-500 mt-0.5 font-mono">2022 &ndash; 2026 (In View)</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xs font-bold text-slate-900 leading-tight">WAEC / SSCE</h3>
+                            <p class="text-2xs text-slate-500 mt-0.5 font-mono">2022</p>
+                            <p class="text-3xs text-slate-550 mt-1 leading-snug font-sans">A in Mathematics & Geography; B grades in all other science subjects.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Skills & Expertise -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.25 mb-3">
+                        Skills & Expertise
+                    </h2>
+                    <div class="space-y-3.5 text-xs text-slate-600 font-sans">
+                        <div>
+                            <span class="font-bold text-slate-800 block mb-1">Software Development</span>
+                            <p class="leading-relaxed text-slate-550 text-2xs">React, Vite, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, PWA Development, Responsive Design</p>
+                        </div>
+                        <div>
+                            <span class="font-bold text-slate-800 block mb-1">Design</span>
+                            <p class="leading-relaxed text-slate-550 text-2xs">UI/UX Design, Graphic Design, Brand Identity, SVG Illustration, Logo Design, Mockup Creation</p>
+                        </div>
+                        <div>
+                            <span class="font-bold text-slate-800 block mb-1">Tools & Platforms</span>
+                            <p class="leading-relaxed text-slate-550 text-2xs">Git & GitHub, Vercel, Supabase, Lovable, Figma, Canva, Groq API, Anthropic API</p>
+                        </div>
+                        <div>
+                            <span class="font-bold text-slate-800 block mb-1">Other Tech</span>
+                            <p class="leading-relaxed text-slate-550 text-2xs">Python (Beginner), Flask, SQLite, CustomTkinter, WhatsApp Bot Development, AI Prompt Engineering, Vibecoding</p>
+                        </div>
+                        <div>
+                            <span class="font-bold text-slate-800 block mb-1">Soft Skills</span>
+                            <p class="leading-relaxed text-slate-550 text-2xs">Leadership & Team Coordination, Public Communication, Content Strategy, Curriculum Design, Mentorship</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Awards & Recognitions -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.25 mb-3">
+                        Awards
+                    </h2>
+                    <div class="space-y-3 text-xs">
+                        <div>
+                            <h4 class="font-bold text-slate-800 leading-tight">3rd Place &mdash; Hackaholics 6.0</h4>
+                            <p class="text-3xs text-slate-400 font-mono">Aug 2025</p>
+                            <p class="text-3xs text-slate-550 mt-1 font-sans leading-relaxed">ABU Zaria | Wema Bank-sponsored | Team AURA</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 leading-tight">Certificate of Participation</h4>
+                            <p class="text-3xs text-slate-550 mt-0.5 font-sans">Innovate AI Conference &lsquo;26</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 leading-tight">Certificate of Participation</h4>
+                            <p class="text-3xs text-slate-550 mt-0.5 font-sans">Build with AI &mdash; GDG Zaria | 2025 & 2026</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 leading-tight">Letter of Recommendation</h4>
+                            <p class="text-3xs text-slate-550 mt-0.5 font-sans">HOD, Department of Computer Science, FUEZ</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 leading-tight">Certificate of Return</h4>
+                            <p class="text-3xs text-slate-550 mt-0.5 font-sans">Elected Office &mdash; NACOS Organizing Secretary, FCE Zaria 2025/26</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Certifications -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.25 mb-3">
+                        Certifications
+                    </h2>
+                    <div class="space-y-2.5 text-2xs text-slate-550 font-sans leading-snug">
+                        <div>
+                            <p class="font-bold text-slate-850">Claude Code in Action</p>
+                            <p class="text-slate-400 font-mono text-3xs">Anthropic &mdash; AI/Developer Training</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-850">AI Fluency for Students</p>
+                            <p class="text-slate-400 font-mono text-3xs">Anthropic &mdash; AI Literacy Programme</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-850">Web Development</p>
+                            <p class="text-slate-400 font-mono text-3xs">SIWES Industrial Training Certificate &mdash; NCAT, Zaria</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Affiliations -->
+                <section>
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 border-b border-slate-100 pb-1.25 mb-3">
+                        Affiliations
+                    </h2>
+                    <ul class="space-y-1 text-2xs text-slate-600 list-disc list-inside font-sans">
+                        <li>NACOS &mdash; National Association of Computing Students</li>
+                        <li>FCE Zaria CS Class Representative Association</li>
+                        <li>Google Developer's Group on Campus, ABU Zaria</li>
+                        <li>Google Developer's Group Zaria</li>
+                        <li>TEDx Sabon Gari</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <!-- References -->
+        <footer class="mt-10 border-t border-slate-100 pt-6">
+            <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-slate-400 pb-1.25 mb-3">
+                References
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-sans text-slate-600">
+                <div>
+                    <h4 class="font-bold text-slate-850">Dr. Abubakar Abba</h4>
+                    <p class="text-3xs text-slate-450 leading-relaxed mt-0.5">
+                        HOD, Department of Computer Science<br>
+                        Federal College of Education (FCE) Zaria
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-850">Mr. Abudu Abimbola</h4>
+                    <p class="text-3xs text-slate-450 leading-relaxed mt-0.5">
+                        Coordinator, CBT Exams<br>
+                        Federal College of Education (FCE) Zaria
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-850">Mr. Najeem Owomayo</h4>
+                    <p class="text-3xs text-slate-450 leading-relaxed mt-0.5">
+                        Lecturer, Department of Computer Science<br>
+                        Federal College of Education (FCE) Zaria
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-850">Dr. Zainab Suleiman</h4>
+                    <p class="text-3xs text-slate-450 leading-relaxed mt-0.5">
+                        HOD, Department of Integrated Science<br>
+                        Federal College of Education (FCE) Zaria
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-850">Dr. Fatima Jumare</h4>
+                    <p class="text-3xs text-slate-450 leading-relaxed mt-0.5">
+                        Part-time Coordinator, Integrated Science<br>
+                        Federal College of Education (FCE) Zaria
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Instructions print utility for non-printed screens -->
+    <div class="max-w-4xl mx-auto mt-6 p-4 bg-slate-100 border border-slate-200 rounded-xl text-center no-print">
+        <p class="text-2xs text-slate-500 leading-normal font-sans">
+            To save this high-fidelity vector document as a <strong>PDF File</strong>, simply click the <strong>"Print or Save to PDF"</strong> button above, select <strong>"Save as PDF"</strong> as your printing destination in your browser dialog, and hit Save.
+        </p>
+    </div>
+
+</body>
+</html>

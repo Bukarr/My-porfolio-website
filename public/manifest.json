@@ -1,0 +1,19 @@
+{
+  "name": "Abubakar Sadiq Tajudeen - Bukarr Portfolio",
+  "short_name": "Bukarr",
+  "description": "The creative portfolio and production workspace of Abubakar Sadiq Tajudeen (Bukarr) — Developer, Graphic Designer, and Tech Advocate.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#010603",
+  "theme_color": "#010603",
+  "orientation": "any",
+  "categories": ["portfolio", "utilities", "education"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

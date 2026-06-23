@@ -1,0 +1,10 @@
+{
+  "name": "Abubakar Sadiq Tajudeen Portfolio",
+  "description": "The creative portfolio and production workspace of Abubakar Sadiq Tajudeen (Bukarr) — Developer, Graphic Designer, and Tech Advocate.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
