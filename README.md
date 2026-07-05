@@ -41,13 +41,4 @@ If a project uses a different script name check its package.json scripts and run
 - Browse source and issues on the repositories listed above to see recent commits, features, and demos.
 - Look at package.json in each project to see dependencies and scripts (I use standard Node/Vite setups).
 
-## Contact / Links
-I used the public links on your GitHub profile when available. For direct contact, check the link on your GitHub profile (portfolio/social links).
 
-## Try asking
-- Which of my projects uses React and where is the main entry point? (look in Pulsr or My-porfolio-website package.json)
-- How does Syllabix structure its build and test scripts? (check Syllabix/package.json)
-- Which projects are intended for students vs demos/games? (CampusNote, CampusChat are student apps; NovelNook and Word-Battle-Game are demos)
-
----
-Generated from your public GitHub activity. If you'd like more detail (language breakdown by bytes, top contributors per repo, or commit highlights for each repo) I can add that and update the profile README again.
